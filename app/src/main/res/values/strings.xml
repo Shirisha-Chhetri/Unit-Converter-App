@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Unit Converter</string>
+
+    <string-array name="temperature">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+    </string-array>
+
+    <string-array name="weight">
+        <item>Kilogram</item>
+        <item>Gram</item>
+        <item>Milligram</item>
+        <item>Pound</item>
+        <item>Ounce</item>
+    </string-array>
+
+    <string-array name="time">
+        <item>Month</item>
+        <item>Week</item>
+        <item>Day</item>
+        <item>Hour</item>
+        <item>Minute</item>
+        <item>Second</item>
+        <item>Millisecond</item>
+    </string-array>
+
+    <string-array name="area">
+        <item>Sq.Kilometer</item>
+        <item>Sq.Meter</item>
+        <item>Sq.Mile</item>
+        <item>Sq.Foot</item>
+        <item>Sq.Inch</item>
+        <item>Acre</item>
+    </string-array>
+
+    <string-array name="frequency">
+        <item>Hertz</item>
+        <item>Kilohertz</item>
+        <item>Megahertz</item>
+        <item>Gigahertz</item>
+    </string-array>
+
+    <string-array name="fuel">
+        <item>Kilometer/litre</item>
+        <item>Miles/gallon</item>
+        <item>Litre/100km</item>>
+    </string-array>
+
+    <string-array name="length">
+        <item>Kilometer</item>
+        <item>Meter</item>
+        <item>Centimeter</item>
+        <item>Millimeter</item>
+        <item>Mile</item>
+        <item>Foot</item>
+        <item>Inch</item>
+        <item>Yard</item>
+    </string-array>
+
+    <string-array name="speed">
+        <item>Miles/hour</item>
+        <item>Foot/second</item>
+        <item>Meter/second</item>
+        <item>Kilometer/hour</item>
+    </string-array>
+
+    <string-array name="volume">
+        <item>Litre</item>
+        <item>Millilitre</item>
+        <item>Gallon</item>
+    </string-array>
+
+</resources>

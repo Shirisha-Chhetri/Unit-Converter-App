@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/volume"
+        android:id="@+id/image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volume"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:fontFamily="cursive"
+        android:id="@+id/text"
+        android:layout_below="@id/image"/>
+
+    <EditText
+        android:id="@+id/from"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:inputType="phone"
+        android:layout_below="@id/text"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="35dp"
+        android:padding="10dp"
+        android:background="@drawable/edit"
+        android:hint="From" />
+
+    <EditText
+        android:id="@+id/to"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/text"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="35dp"
+        android:layout_toRightOf="@id/from"
+        android:background="@drawable/edit"
+        android:hint="To"
+        android:enabled="false"
+        android:textColor="@color/black"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="338dp"
+        android:layout_below="@id/from"
+        android:entries="@array/volume"
+        android:spinnerMode="dropdown"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="15dp"
+        android:autofillHints="card"
+        android:layout_marginTop="10dp" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/from"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:autofillHints="temp"
+        android:entries="@array/volume"
+        android:spinnerMode="dropdown" />
+
+    <Button
+        android:id="@+id/convert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/from"
+        android:layout_marginTop="104dp"
+        android:backgroundTint="#269E2C"
+        android:text="Convert"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
